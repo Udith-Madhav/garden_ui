@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:login_page_vs/newLog.dart';
 import 'package:login_page_vs/registration.dart';
+import 'package:login_page_vs/select.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const regLog(),
+      home: const NewSelect(),
     );
   }
 }
